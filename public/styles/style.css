@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Apple Color Emoji";
+}
+
+/* Styles Geral */
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container_style{
+    background-color: #81b8b5;
+    position: absolute;font-family: "Noto Sans Mono CJK TC Regular";
+    top: 50%;font-family: "Noto Sans Mono CJK TC Regular";
+    transform: translate(0, -50%);
+    border-radius: 2%;
+}
+
+/* Style da página "index.php" */
+#form_login img{
+    margin-bottom: 6%;
+}
+#rodape_login {
+    margin-top: 7%;
+}
+#rodape_login button{
+    margin-left: 12px;
+}
+#rodape_login div a{
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+}
+#rodape_login div span{
+    float: right;
+    color: #ffffff;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+/* FIM */
+
+/* Style da página "cadastrousuario.php" */
+#form_cadastro_usuario h3{
+    text-align: center;
+    margin-top: 6px;
+    color: #5a6268;
+}
+#form_cadastro_usuario hr{
+    background-color: #5a6268;
+}
+#form_cadastro_usuario div label{
+    color: #5a6268;
+    margin-bottom: 0.3em;
+}
+
+#btn_cadastrar{
+    text-align: center;
+}
+/* FIM */

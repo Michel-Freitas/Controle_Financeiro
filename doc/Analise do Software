@@ -1,0 +1,30 @@
+CONTROLE DE GASTOS PESSOAIS
+
+1-OBJETIVO DO SOFTWARE?
+O objetivo do software é fornecer ao usuário uma plataforma para que ele possa ter o controle financeiro de seus
+gastos e de sua economia. Informando e notificando sobre pagamentos futuros, gastas mensais, lucro mensal.
+
+2-QUAL PLATAFORMA IRA SER UTLIZADA?
+Plataforma Web e Android
+
+3-QUAIS FUNCIONALIDADES O SOFTWARE TERÁ?
+	->Cadastro de Usuários
+	->Cadastro de Cartões
+	->Cadastro de Categorias
+	->Cadastro de SubCategorias
+	->Cadastro de Despesas
+		->Avista
+		->Crediario
+		->Cartão
+	->Cadastro de Receitas
+	->Relatório de Contas a pagar
+		->Categoria
+	->Relatório de contas a receber
+		->Categoria
+	->Noficicação de vencimentos de contas
+	->Cadastro de Objetivos
+	->Notificação de Objetivos
+	->Cadastro de Metas
+	->Notificação de Metas
+	->Painel com Gráficos
+

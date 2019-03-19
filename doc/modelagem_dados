@@ -1,0 +1,95 @@
+------------usuario--------------
+id_usuario			* int
+nome_usuario			* varchar(20)
+sobre_nome_usuario		* varchar(20)
+email_usuario			* varchar(70)
+login_usuario			* varchar(15)
+password_usuario		* varchar(30)
+status_usuario			* int(1)
+---------------------------------
+
+---------cartao_credito----------
+id_cartao			* int
+id_usuario			* int
+titulo_cartao			* varchar(15)
+bandeira_cartao			* varchar(10)
+limite_cartao			* double(5,2)
+data_validade_cartao		* date
+data_vencimento_fatura		* date
+data_fechamento_fatura		* date
+status_cartao			* int(1)
+---------------------------------
+
+-------------despesa-------------
+id_despesa			* int
+id_usuario			* int
+id_categoria			* int
+id_cartao			* int
+titulo_despesa			* varchar(25)
+data_despesa			* date
+data_pagamento_despesa		* date
+valor_despesa			* double(5,2)
+quant_parcelas_despesa		* int
+tipo_despesa			* varchar(10)
+descricao_despesa		* varchar(100)
+status_despesa			* int(1)
+---------------------------------
+
+-------------receita-------------
+id_receita			* int
+id_usuario			* int
+id_categoria			* int
+titulo_receita			* varchar(20)
+valor_receita			* double(5,2)
+data_receita			* date
+descricao_receita		* varchar(50)
+status_receita			* int(1)
+---------------------------------
+
+-----despesa_cartao_credito------
+id_despesa_cartao		* int
+id_cartao			* int
+id_despesa			* int
+---------------------------------
+
+-----------categoria-------------
+id_categoria			* int
+id_usuario			* int
+titulo_categoria_subCategoria	* varhcar(20)
+id_pai_sub_categoria		* int  		(OBS: CAMPO PREENCHIDO COM O ID DA CATEGORIA EM QUE ELE VAI SER FILHO)
+plano_contas_categoria		* varchar(10)
+status_categoria		* int(1)
+---------------------------------
+
+------------pagameto-------------
+id_pagamento			* int
+id_despesa			* int
+data_pagamento			* date
+valor_pagamento			* double(5,2)
+status_pagamento		* int(1)
+---------------------------------
+
+------------objetivo-------------
+id_objetivo			* int
+id_usuario			* int
+titulo_objetivo			* varchar(20)
+descricao_objetivo		* varchar(100)
+status_objetivo			* int(1)
+---------------------------------
+
+---------------meta--------------
+id_meta				* int
+id_usuario			* int
+titulo_meta			* varchar(20)
+data_inicial_meta		* date
+data_final_meta			* date
+quantidade_meta			* double(5,2)
+descricao_meta			* varchar(100)
+status_meta			* int(1)
+---------------------------------
+
+
+
+
+
+

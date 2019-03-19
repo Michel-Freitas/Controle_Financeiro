@@ -1,0 +1,13 @@
+# View
+- [ ] Página Login
+- [ ] Página Inicial (Gráficos)
+- [ ] Página Cadastro Metas
+- [ ] Página Cadastro Objetivos
+- [ ] Página Cadastro Cartões
+- [ ] Página Cadastro Categorias
+- [ ] Página Cadastro Subcategorias
+- [ ] Página Cadastro de Despesas
+- [ ] Página Cadastro Receitas
+- [ ] Página Cadastro Usuários
+- [ ] Página Relatóios
+- [ ] Página Aprovação Usuários
