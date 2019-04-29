@@ -39,6 +39,7 @@ status_despesa			* int(1)
 id_receita			* int
 id_usuario			* int
 id_categoria			* int
+id_conta_bancaria		* int
 titulo_receita			* varchar(20)
 valor_receita			* double(5,2)
 data_receita			* date
@@ -64,9 +65,19 @@ status_categoria		* int(1)
 ------------pagameto-------------
 id_pagamento			* int
 id_despesa			* int
+id_conta_bancaria		* int
 data_pagamento			* date
 valor_pagamento			* double(5,2)
 status_pagamento		* int(1)
+---------------------------------
+
+----------Recebimento------------
+id_recebimento			* int
+id_receita			* int
+id_conta_bancaria_recebimento	* int
+data_recebimento		* date
+valor_recebimento		* double(5,2)
+status_recebimento		* int(1)
 ---------------------------------
 
 ------------objetivo-------------
@@ -88,8 +99,22 @@ descricao_meta			* varchar(100)
 status_meta			* int(1)
 ---------------------------------
 
+---------conta_bancaria----------
+id_conta			* int
+id_usuario			* int
+titulo_conta			* varchar(50)
+banco_conta			* varchar(50)
+tipo_conta			* varchar(10)
+saldo_conta_atual		* double(5,2)
+data_ult_alteração_saldo_conta	* date
+conta_principal			* int(1)
+status_conta			* int(1)
+---------------------------------
 
-
-
-
-
+--------transacao_bancaria-------
+id_transacao			* int
+id_conta_bancaria		* int
+tipo_transacao			* varchar(10)
+valor_transacao			* double(5,2)
+data_transacao			* date
+*********************************

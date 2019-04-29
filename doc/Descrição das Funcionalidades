@@ -1,0 +1,45 @@
+DESCRIÇÃO DAS FUNCIONALIDADES
+
+1- MOVIMENTAÇÃO
+	1.1- DESPESAS: Efetuar cadastro de novas despesas e listar as despesas que já tem cadastradas.
+	1.2- RECEITAS: Efetuar cadastro de novas despesas e listar as despesas que já tem cadastradas.
+	1.3- PAGAMENTOS: Lista com os pagamentos(despeas) pendentes para o mês atual e a opção de pagar debitando de uma das contas
+		cadastradas no sistema.
+	1.4- RECEBIMENTOS: Listar os recebimentos pendentes para o mês atual e a opção de receber creditando em uma das contas cadastradas 			no sistema.
+	1.5- TRANSAÇÕES: Efetuar transações entre contas cadastradas e listar-las.
+
+2- PLANO DE CONTAS
+	2.1- CATEGORIAS: Cadastro e a listagem de categorias e a opção de deixar ativa ou não.
+	2.2- SUBCATEGORIAS: Cadastro e a listagem de subcategorias e a opção de deixar ativa ou não.
+
+3- PLANEJAMENTO
+	3.1- ORÇAMENTOS: Página com o cadastro de orçamentos e a listagem deles.
+		O sistema deve ficar atento para o saldo da conta principal para não ultrapassar o orcamento e quando chegar perto
+		do valor que foi informado no cadastro do orçamento.
+	3.2- METAS: Página com o cadastro de metas e a listagem deles.
+
+4- RELATÓRIOS:
+	4.1- RELATÓRIOS DE PAGAMENTOS: Página com os filtros do relatório.
+		Deve ter os seguintes filtros:
+			- data pagamento por categoria
+			- pagamentos entre um determinado periodo com ou sem categoria
+	4.2- RELATÓRIOS DE DESPESAS: Página com os filtros do relatório.
+		Deve ter os seguintes filtros:
+			- data despesa por categoria
+			- despesa entre um determinado periodo com ou sem categoria
+	4.3- RELATÓRIOS DE RECEITAS: Página com os filtros do relatório.
+		Deve ter os seguintes filtros:
+			- data receita por categoria
+			- receita entre um determinado periodo com ou sem categoria
+	4.4- RELATÓRIOS DE RECEBIMENTOS: Página com os filtors do relatório
+		Deve ter os seguintes filtros:
+			- data recebimento por categoria
+			- recebimento entre um determinado periodo com ou sem categoria
+	4.5- RELATÓRIOS DE TRANSAÇÕES: Página com os filtros do relatório.
+		Deve ter os seguintes filtros:
+			- data transação por categoria
+			- transação entre um determinado periodo com ou sem categoria
+
+5- CARTÃO DE CRÉDITO: página com todos os cartões e o formulário de cadastro de cartões.
+
+6- CONTAS: Nessa página deverar conter uma lista com as contas cadastradas e o formulário para o cadastro de contas

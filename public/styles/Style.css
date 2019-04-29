@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Apple Color Emoji";
+}
+
+/* Styles Geral */
+nav{
+    border: 0.1px solid #81b8b5;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container-style{
+    background-color: #81b8b5;
+    position: absolute;font-family: "Noto Sans Mono CJK TC Regular";
+    top: 50%;font-family: "Noto Sans Mono CJK TC Regular";
+    transform: translate(0, -50%);
+    border-radius: 2%;
+}
+.table-responsive table{
+    text-align: center;
+}
+.table-responsive table thead{
+    background-color: #5a6268;
+    color: #ffffff;
+}
+.linha-topo{
+    margin-bottom: 30px;
+}
+.titulos{
+    text-align: center;
+    padding-top: 15px;
+}
+.titulo-tabela{
+    text-align: center;
+}
+.container-form-styles{
+    padding-left: 25px;
+    padding-right: 10px
+}
+.container-btn-styles{
+    text-align: center;
+}
+/* FIM */
+
+/* Style da página "index.php" */
+#form-login img{
+    margin-bottom: 6%;
+}
+#rodape-login {
+    margin-top: 7%;
+}
+#rodape-login button{
+    margin-left: 12px;
+}
+#rodape-login div a{
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+}
+#rodape-login div span{
+    float: right;
+    color: #ffffff;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+/* FIM */
+
+/* Style da página "CadastroUsuario.php" */
+#form-cadastro-usuario h3{
+    text-align: center;
+    margin-top: 6px;
+    color: #5a6268;
+}
+#form-cadastro-usuario hr{
+    background-color: #5a6268;
+}
+#form-cadastro-usuario div label{
+    color: #5a6268;
+    margin-bottom: 0.3em;
+}
+#btn-cadastrar{
+    text-align: center;
+}
+/* FIM */
+
+/* Style da página "Home.php" */
+/* Menu da página */
+#container-menu{
+    background-color: #81b8b5;
+    height:100px;
+}
+#container-menu ul.col-md-8{
+    align-content: center;
+    list-style: none;
+    position: relative;
+    float: left;
+    z-index: 1;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+#container-menu ul li{
+    float: left;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: #5a6268;
+}
+#container-menu ul li a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+#container-menu ul ul{
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    width: 25%;
+}
+#container-menu ul li:hover ul{
+    visibility: visible;
+}
+#container-menu ul ul li{
+    float: none;
+    border: 1px solid #ffffff;
+    width: auto;
+    background-color: #5a6268;
+}
+#btn-responsivo{
+    display: none;
+}
+#bt_menu {
+    display: none;
+}
+#lbl_responsivel{
+    display: none;
+}
+#container-img-log{
+    height: 100px;
+    position: relative;
+    float: left;
+}
+#container-img-log img{
+    height: 100%;
+}
+#container-usuario{
+    margin-top: 0.5%;
+    float: left;
+    text-align: center;
+}
+#container-usuario i{
+    width: 100%;
+}
+#container-usuario a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+}
+#container-usuario label{
+    margin-left: 6px;
+}
+@media (max-width: 800px) {
+    #container-fluid input[type='checkbox']{
+        visibility: hidden;
+        display: block;
+    }
+    #lbl_responsivel{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        display: block;
+        position: relative;
+    }
+    #lbl_responsivel label[for='bt_menu']{
+        display: block;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+    }
+    #btn-responsivo{
+        display: block;
+    }
+    #container-usuario{
+        position: absolute;
+        text-align: right;
+    }
+    #bt_menu:checked ~ #container-menu{
+        margin-left: 0;
+    }
+    #container-img-log{
+        text-align: left;
+        height: 190px;
+    }
+    #container-img-log img{
+        height: 50%;
+    }
+    #container-menu{
+        margin-top: 5px;
+        margin-left: -100%;
+        transition: all .4s;
+    }
+    #container-menu ul li {
+        width: 100%;
+        float: none;
+    }
+    #container-menu ul ul {
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all 4s;
+        width: 100%;
+    }
+    #container-menu ul ul li{
+        background-color:  #81b8b5;
+    }
+    #container-menu ul li:hover ul {
+        height: auto;
+        max-height: 200px;
+    }
+}
+/* Fim Menu */
+
+/* Corpo da página */
+#container-corpo{
+    width: 100%;
+}
+/* Fim do Corpo*/
+
+/* Páginas de Relatporios */
+.relatorios{
+    float: left;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.relatorios input, select{
+    margin-bottom: 10px;
+}
+.relatorios form{
+    padding: 20px;
+    border: 2px dashed #5a6268;
+}
