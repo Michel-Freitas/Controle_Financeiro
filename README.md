@@ -5,14 +5,11 @@ Software para os usuários poderem controlar seus gastos e ter um controle maior
 ### Funcionalidades:
 #### Movimentação
 <ol>
-  <li>Cadastro de Despesas</li>
-  <li>Listar Despesas</li>
-  <li>Cadastro de Receitas</li>
-  <li>Listar Receitas</li>
-  <li>Controle dos Pagamentos</li>
-  <li>Controle dos Recebimentos</li>
-  <li>Cadastrar Transação</li>
-  <li>Listar Transação</li>
+  <li>Despesas</li>
+  <li>Receitas</li>
+  <li>Pagamentos</li>
+  <li>Recebimentos</li>
+  <li>Transação</li>
 </ol>
 
 ##### Plano de Contas
@@ -20,6 +17,23 @@ Software para os usuários poderem controlar seus gastos e ter um controle maior
   <li>Categorias</li>
   <li>Subcategoria</li>
 </ol>
+
+##### Planejamento
+<ol>
+  <li>Orçamentos</li>
+  <li>Metas</li>
+</ol>
+
+##### Relatório
+<ol>
+  <li>Relatório de Despesa</li>
+  <li>Relatório de Pagamentos</li>
+  <li>Relatório de Receitas</li>
+  <li>Relatório de Recebimentos</li>
+  <li>Relatório de Transações</li>
+</ol>
+
+##### Imagens
 
 <table>
   <tr>
