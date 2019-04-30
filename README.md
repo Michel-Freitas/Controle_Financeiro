@@ -15,6 +15,12 @@ Software para os usuários poderem controlar seus gastos e ter um controle maior
   <li>Listar Transação</li>
 </ol>
 
+##### Plano de Contas
+<ol>
+  <li>Categorias</li>
+  <li>Subcategoria</li>
+</ol>
+
 <table>
   <tr>
     <td><img src="layout/login.png"></td>
