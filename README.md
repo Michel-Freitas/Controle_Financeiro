@@ -16,10 +16,10 @@ Software para os usuários poderem controlar seus gastos e ter um controle maior
 </ol>
 
 <table>
-  <td>
-    <tr><img src="layout/login.png"></tr>
-    <tr><img src="layout/paginainicial.png"></tr>
-  </td>
+  <tr>
+    <td><img src="layout/login.png"></td>
+    <td><img src="layout/paginainicial.png"></td>
+  </tr>
   <td>
     <tr><img src="layout/categorias.png"></tr>
     <tr><img src="layout/cartaocredito.png"></tr>
