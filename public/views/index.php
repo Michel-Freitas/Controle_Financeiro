@@ -6,13 +6,13 @@
     <title>FinançasP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../framework/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../styles/Style.css">
+    <link rel="stylesheet" href="../recursos/styles/Style.css">
 </head>
 <body>
     <div class="container">
         <div class="col-md-4 container-style">
            <form action="Home.php" method="post" id="form-login">
-                <img src="../img/logo-1.png" alt="logo" class="img-fluid">
+                <img src="../recursos/img/logo-1.png" alt="logo" class="img-fluid">
                 <div class="form-group">
                     <input type="text" name="login" class="form-control" placeholder="Login">
                 </div>

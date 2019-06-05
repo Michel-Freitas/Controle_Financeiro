@@ -8,7 +8,7 @@
     <title>FinançasP</title>
 <!--    Styles -->
     <link rel="stylesheet" href="../../framework/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../styles/Style.css">
+    <link rel="stylesheet" href="../recursos/styles/Style.css">
 </head>
 <body>
     <div class="container">

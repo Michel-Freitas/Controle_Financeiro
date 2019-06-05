@@ -1,5 +1,5 @@
 <?php
-include "../controller/grafico/consulta.php";
+include "../controllers/grafico/consulta.php";
 if(isset($_GET['pagina'])){
     $pagina = $_GET['pagina'];
     if(!$pagina == ''){
@@ -18,12 +18,12 @@ if(isset($_GET['pagina'])){
 <!--          Styles  -->
         <link rel="stylesheet" href="../../framework/fontawesome-free-5.8.1-web/css/all.css">
         <link rel="stylesheet" href="../../framework/bootstrap-4.3.1-dist/css/bootstrap.css">
-        <link rel="stylesheet" href="../styles/Style.css">
-        <link rel="stylesheet" href="../styles/gráfico-antigo/nv.d3.css">
+        <link rel="stylesheet" href="../recursos/styles/Style.css">
+        <link rel="stylesheet" href="../recursos/styles/gráfico-antigo/nv.d3.css">
 <!--          Scripts  -->
-        <script src="../scripts/jquery-1.5.1.min.js"></script>
-        <script src="../scripts/grafico-antigo/d3.min.js"></script>
-        <script src="../scripts/grafico-antigo/nv.d3.js"></script>
+        <script src="../recursos/scripts/jquery-1.5.1.min.js"></script>
+        <script src="../recursos/scripts/grafico-antigo/d3.min.js"></script>
+        <script src="../recursos/scripts/grafico-antigo/nv.d3.js"></script>
 
 <!--        Script para carregar as páginas dentro da div #container-corpo -->
         <script type='text/javascript'>
@@ -121,7 +121,7 @@ if(isset($_GET['pagina'])){
         </div>
         <nav id="container-menu" class="col-md-12">
             <div class="col-md-2 img-fluid" id="container-img-log">
-                <a href="Home.php"><img src="../img/logo-1.png" alt="logo"></a>
+                <a href="Home.php"><img src="../recursos/img/logo-1.png" alt="logo"></a>
             </div>
             <ul class="col-md-8">
                 <li><a href="#">Movimentação</a>
