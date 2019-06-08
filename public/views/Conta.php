@@ -44,7 +44,7 @@
                     <input type="text" name="tituloConta" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="bancoCartao">Bandeira do Cartão</label>
+                    <label for="bancoCartao">Banco da Conta</label>
                     <select name="bancoCartao" id="banco-cartao" class="form-control">
                         <option value=""></option>
                         <option value="Banco do Brasil">Banco do Brasil</option>

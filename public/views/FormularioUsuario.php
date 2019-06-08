@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <div class="col-md-5 container-style">
-            <form action="" method="post" id="form-cadastro-usuario">
+            <form action="../controllers/usuario.php" method="post" id="form-cadastro-usuario">
                 <h3>Cadastro</h3>
                 <hr>
                 <div class="form-group">
@@ -36,12 +36,8 @@
                     <label for="password" class="password">Senha:</label>
                     <input type="password" name="password" placeholder="Senha" class="form-control">
                 </div>
-                <div class="form-group">
-                    <label for="confirma_password" class="password">Cofirmar Senha:</label>
-                    <input type="password" name="confirmar_password" placeholder="Confirma Senha" class="form-control">
-                </div>
                 <div class="form-group" id="btn-cadastrar">
-                    <button type="submit" name="cadastrar" value="cadastrar" class="btn btn-primary">Cadastrar-Se</button>
+                    <button type="submit" name="cadastrar" value="cadastro" class="btn btn-primary" onclick="validarSenha()">Cadastrar-Se</button>
                 </div>
             </form>
         </div>
